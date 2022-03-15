@@ -40,6 +40,8 @@ const typeDefs = gql`
     "The number of modules this track contains"
     modulesCount: Int
     "The track's complete description, can be in markdown format"
+    "The track's full duration, in seconds"
+durationInSeconds: Int
     description: String
     "The number of times a track has been viewed"
     numberOfViews: Int
